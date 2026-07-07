@@ -50,7 +50,7 @@ def delete_setting(settings_dict, key):
 
 def view_settings(settings_dict):
     """
-    Formats and lists all stored configuration options with capitalized keys.
+    Formats and lists all stored configuration options with capitalized keys
     """
     if not settings_dict:
         return "No settings available."
